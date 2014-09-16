@@ -1,0 +1,24 @@
+name:                pong
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+-- license:             
+license-file:        LICENSE
+-- author:              
+maintainer:          emnething@gmail.com
+-- copyright:           
+-- category:            
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+executable pong
+  main-is:             Main.hs
+--  hs-source-dirs:      pong
+  default-language:    Haskell2010
+  build-depends:       base >=4.6
+                     , SDL2
+                     , netwire >= 5.0
+                     , containers
+                     , transformers
+                     
